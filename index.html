@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasty Bites Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b99a4f217162803.678c049103b3c.png" alt="Tasty Bites Logo" height="200px" width="100px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Tasty Bites</h1>
+            <p>Your perfect dining experience</p>
+            <a href="#menu" class="cta-btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="images/biryani.png" alt="Food 1">
+                <h3>Biryani</h3>
+                <p>A fragrant, spiced rice dish with tender chicken (or other meats) cooked in rich spices, saffron, and herbs. It's flavorful, aromatic, and perfect with raita or salad.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/karahi.png" alt="Food 2">
+                <h3>Chicken Karahi</h3>
+                <p>A spicy, hearty chicken curry cooked in a wok-like pan with tomatoes, ginger, garlic, and aromatic spices. Topped with fresh coriander, it's best enjoyed with naan or rice.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/singaporian rice.png" alt="Food 3">
+                <h3>Singaporian Rice</h3>
+                <p>A vibrant stir-fried rice dish with chicken or prawns, colorful veggies, and a touch of curry and soy sauce. Light, flavorful, and slightly spicy, it’s a perfect fusion meal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Tasty Bites is a family-owned restaurant offering the finest culinary delights. We serve fresh, locally sourced ingredients with love and care.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="email" placeholder="Your Email" id="email" required>
+            <textarea placeholder="Your Message" id="message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Tasty Bites. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
